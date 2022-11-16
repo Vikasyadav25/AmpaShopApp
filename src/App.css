@@ -6,6 +6,139 @@
   height: 40vmin;
   pointer-events: none;
 }
+.homePage{
+  font-weight: bold;
+}
+.buy{
+  display: flex;
+  gap: 1rem;
+
+
+}
+.btn-primary{
+  background-color: black;
+  height: 35px;
+  width: 80px;
+
+  
+}
+
+.stocklist{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: green;
+  font-weight: bold;
+  /* fon */
+
+
+}
+.cart{
+  width: 40px;
+  height: 20px;
+  padding: 5px;
+  color: white;
+}
+.cartinput{
+  width: 50px;
+  height: 30px;
+  background-color: rgba(245, 244, 244, 0.856);
+  margin: 2px;
+  border: 1px solid black;
+  font-weight: 400;
+  font-size: larger;
+
+}
+.price{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.pricetag{
+  padding: 3px;
+}
+.name_color{
+  color: rgb(22, 173, 233);
+  font-weight: bold;
+  text-decoration: underline; 
+}
+.reset{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+}
+.reset_text{
+  margin: 0px 7px;
+
+}
+.btn_cart{
+  text-decoration: none;
+  background: rgb(22, 173, 233);
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 20px;
+  border: 1px solid gray;
+  border-radius: 2px;
+
+}
+.toolbar{
+  display: flex;
+  flex-direction: row;
+  gap: 43rem;
+  height: 40px;
+
+
+}
+.category_selector{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-weight: 600;
+
+}
+
+.searchbar{
+  display: flex;
+  flex-direction: row;
+
+}
+.lable{
+  position:absolute;
+  right:320px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.search_list{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+.selector_category{
+  height: 30px;
+  width: 100px;
+
+
+}
+.searchlist{
+  padding: 6px;
+  border: 1px solid gray;
+  background-color: rgba(235, 233, 233, 0.521);
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 120px;
+  height: 15px;
+
+}
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
